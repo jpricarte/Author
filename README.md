@@ -4,9 +4,17 @@ A simple python CLI created to automate the git config process
 ## Commands
 ### author add
 Create a new user to your git
+#### -n, --name
+Use inserted name, jumping name option
+#### -e, --email
+Use inserted email, jumping email option
+#### -u, --user
+Use inserted user, jumping user option
 
 ### author change [user]
-change 'git config --global' to this user
+change git user for this repository
+#### -g, --change-global
+Change git global user
 
 ## How to Contribute
 ### Pull requests
